@@ -1,11 +1,12 @@
 "use strict"
 
-function hidePamels(){
-    let pamels=document.getElementsByClassName("panel")
-    for(let i=0;Panels.length;i++){
+function hidePanels(){
+    let panels=document.getElementsByClassName("panel")
+    for(let i=0;i<panels.length;i++){
         panels[i].style.display="none"
     }
 }
+
 
 function showPanel(pid){
 
